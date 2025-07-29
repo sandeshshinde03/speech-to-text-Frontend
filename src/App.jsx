@@ -34,14 +34,15 @@ function App() {
       </div>
 
       {/* Project Name at the top */}
-      <header className="text-center mb-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-purple-800 dark:text-purple-300 drop-shadow-sm">
-          🗣️🎙️ Speech-to-Text Converter 🔤🧾
-        </h1>
-        <p className="mt-2 text-lg md:text-xl text-purple-600 dark:text-purple-200 font-medium">
-          Convert your voice to text
-        </p>
-      </header>
+      <header className="text-center mb-6 px-4 sm:px-6 md:px-8">
+  <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-purple-800 dark:text-purple-300 leading-tight break-words">
+    <span className="hidden sm:inline">🗣️🎙️</span>Speech-to-Text Converter <span className="hidden sm:inline">🔤🧾</span>
+  </h1>
+  <p className="mt-2 text-base sm:text-lg md:text-xl text-purple-600 dark:text-purple-200 font-medium">
+    Convert your voice to text
+  </p>
+</header>
+
 
       {/* AudioUploader Component */}
       <AudioUploader />
